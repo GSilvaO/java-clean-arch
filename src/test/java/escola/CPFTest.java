@@ -17,5 +17,12 @@ class CPFTest {
 		assertThrows(IllegalArgumentException.class, 
 				() -> new CPF("12345678900"));
 	}
+	
+	@Test
+	void deveriaPermitirCriarCPFComNumeroValido() {
+		String numero = "123.456.789-00";
+		CPF cpf = new CPF(numero);
+		assertEquals(numero, cpf.getNumero());
+	}
 
 }
