@@ -1,4 +1,4 @@
-package escola;
+package br.com.gsilvao.escola.dominio.aluno;
 
 import java.util.ArrayList;
 import java.util.List;
