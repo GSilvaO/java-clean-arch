@@ -1,4 +1,4 @@
-package br.com.gsilvao.escola.aplicacao;
+package br.com.gsilvao.escola.aplicacao.indicacao;
 
 import br.com.gsilvao.escola.dominio.aluno.Aluno;
 

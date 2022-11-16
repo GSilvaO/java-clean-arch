@@ -1,8 +1,8 @@
-package br.com.gsilvao.escola.infra.aluno;
+package br.com.gsilvao.escola.infra.indicacao;
 
 import java.util.List;
 
-import br.com.gsilvao.escola.aplicacao.EnviarEmailIndicacao;
+import br.com.gsilvao.escola.aplicacao.indicacao.EnviarEmailIndicacao;
 import br.com.gsilvao.escola.dominio.aluno.Aluno;
 import br.com.gsilvao.escola.dominio.aluno.AlunosRepository;
 import br.com.gsilvao.escola.dominio.aluno.CPF;
