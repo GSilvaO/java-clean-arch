@@ -1,9 +1,9 @@
 package br.com.gsilvao.escola.academico.aplicacao.aluno;
 
-import br.com.gsilvao.escola.academico.dominio.PublicadorDeEventos;
 import br.com.gsilvao.escola.academico.dominio.aluno.Aluno;
 import br.com.gsilvao.escola.academico.dominio.aluno.AlunoMatriculado;
 import br.com.gsilvao.escola.academico.dominio.aluno.AlunosRepository;
+import br.com.gsilvao.escola.shared.dominio.evento.PublicadorDeEventos;
 
 public class MatricularAluno {
 	

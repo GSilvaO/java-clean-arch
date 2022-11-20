@@ -2,8 +2,9 @@ package br.com.gsilvao.escola.academico.dominio.aluno;
 
 import java.time.format.DateTimeFormatter;
 
-import br.com.gsilvao.escola.academico.dominio.Evento;
-import br.com.gsilvao.escola.academico.dominio.Ouvinte;
+import br.com.gsilvao.escola.shared.dominio.evento.Evento;
+import br.com.gsilvao.escola.shared.dominio.evento.Ouvinte;
+import br.com.gsilvao.escola.shared.dominio.evento.TipoDeEvento;
 
 public class LogDeAlunoMatriculado extends Ouvinte {
 
@@ -21,6 +22,6 @@ public class LogDeAlunoMatriculado extends Ouvinte {
 
 	@Override
 	protected boolean deveProcessar(Evento evento) {
-		return evento instanceof AlunoMatriculado;
+		return evento.tipo() == TipoDeEvento.ALUNO_MATRICULADO;
 	}
 }

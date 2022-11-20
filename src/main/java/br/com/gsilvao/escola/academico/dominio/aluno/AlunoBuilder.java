@@ -1,5 +1,7 @@
 package br.com.gsilvao.escola.academico.dominio.aluno;
 
+import br.com.gsilvao.escola.shared.dominio.CPF;
+
 public class AlunoBuilder {
 
 	private Aluno aluno;

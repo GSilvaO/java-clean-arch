@@ -1,4 +1,4 @@
-package br.com.gsilvao.escola.academico.dominio.aluno;
+package br.com.gsilvao.escola.shared.dominio;
 
 public class CPF {
 	private String numero;

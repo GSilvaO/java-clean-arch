@@ -1,8 +1,8 @@
 package br.com.gsilvao.escola.academico.aplicacao.aluno;
 
 import br.com.gsilvao.escola.academico.dominio.aluno.Aluno;
-import br.com.gsilvao.escola.academico.dominio.aluno.CPF;
 import br.com.gsilvao.escola.academico.dominio.aluno.Email;
+import br.com.gsilvao.escola.shared.dominio.CPF;
 
 public class MatricularAlunoDto {
 

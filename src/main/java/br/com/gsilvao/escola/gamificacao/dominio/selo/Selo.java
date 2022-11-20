@@ -1,16 +1,18 @@
 package br.com.gsilvao.escola.gamificacao.dominio.selo;
 
+import br.com.gsilvao.escola.shared.dominio.CPF;
+
 public class Selo {
 
-	private String cpfDoAluno;
+	private CPF cpfDoAluno;
 	private String nome;
 	
-	public Selo(String cpfDoAluno, String nome) {
+	public Selo(CPF cpfDoAluno, String nome) {
 		this.cpfDoAluno = cpfDoAluno;
 		this.nome = nome;
 	}
 	
-	public String getCpfDoAluno() {
+	public CPF getCpfDoAluno() {
 		return cpfDoAluno;
 	}
 	

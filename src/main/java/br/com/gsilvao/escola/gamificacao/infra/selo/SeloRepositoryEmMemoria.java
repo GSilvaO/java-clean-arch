@@ -4,9 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import br.com.gsilvao.escola.academico.dominio.aluno.CPF;
 import br.com.gsilvao.escola.gamificacao.dominio.selo.Selo;
 import br.com.gsilvao.escola.gamificacao.dominio.selo.SelosRepository;
+import br.com.gsilvao.escola.shared.dominio.CPF;
 
 public class SeloRepositoryEmMemoria implements SelosRepository{
 
