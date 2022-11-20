@@ -1,8 +1,8 @@
-import br.com.gsilvao.escola.aplicacao.aluno.MatricularAluno;
-import br.com.gsilvao.escola.aplicacao.aluno.MatricularAlunoDto;
-import br.com.gsilvao.escola.dominio.PublicadorDeEventos;
-import br.com.gsilvao.escola.dominio.aluno.LogDeAlunoMatriculado;
-import br.com.gsilvao.escola.infra.aluno.AlunosRepositoryEmMemoria;
+import br.com.gsilvao.escola.academico.aplicacao.aluno.MatricularAluno;
+import br.com.gsilvao.escola.academico.aplicacao.aluno.MatricularAlunoDto;
+import br.com.gsilvao.escola.academico.dominio.PublicadorDeEventos;
+import br.com.gsilvao.escola.academico.dominio.aluno.LogDeAlunoMatriculado;
+import br.com.gsilvao.escola.academico.infra.aluno.AlunosRepositoryEmMemoria;
 
 public class MatricularAlunoTestDrive {
 
