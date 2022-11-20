@@ -18,7 +18,7 @@ public class SeloRepositoryEmMemoria implements SelosRepository{
 	}
 
 	@Override
-	public List<Selo> selodDoAlunoDeCPF(CPF cpf) {
+	public List<Selo> seloDoAlunoDeCPF(CPF cpf) {
 		return selos.stream()
 				.filter(s -> s.getCpfDoAluno().equals(cpf.getNumero()))
 				.collect(Collectors.toList());

@@ -7,5 +7,5 @@ import br.com.gsilvao.escola.shared.dominio.CPF;
 public interface SelosRepository {
 
 	void adicionar(Selo selo);
-	List<Selo> selodDoAlunoDeCPF(CPF cpf);
+	List<Selo> seloDoAlunoDeCPF(CPF cpf);
 }
